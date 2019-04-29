@@ -11,7 +11,6 @@
   assign("echoCmd", FALSE, envir=.HEG_CACHE)
 }
 
-
 .onUnload <- function(lib, pkg) {
   rm(.HEG_CACHE)
 }
